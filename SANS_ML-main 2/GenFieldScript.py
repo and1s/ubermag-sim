@@ -28,7 +28,7 @@ h_min = 0
 t_max = 8
 t_min = 1
 
-iters = 50
+iters = 1
 
 for i in range(iters):
     a = np.random.choice(np.linspace(h_min, h_max,iters))
