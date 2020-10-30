@@ -6,7 +6,8 @@ import scipy
 import math
 import discretisedfield as df
 import micromagneticmodel as mm
-import oommfc as mc
+#WAS import oommfc as mc CHANGEDTO:
+import mumaxc as mc
 plt.style.use('Solarize_Light2')
 
 def createField(Ep, Gp, xtalClass, drive=True, show=True):

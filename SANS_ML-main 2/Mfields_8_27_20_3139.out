@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "GenFieldScript.py", line 4, in <module>
+    import UbermagSANS as U
+  File "/data1/spiridea/ubermag-sim/SANS_ML-main 2/UbermagSANS.py", line 10, in <module>
+    import mumaxc as mc
+ModuleNotFoundError: No module named 'mumaxc'
